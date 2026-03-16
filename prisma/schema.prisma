@@ -1,13 +1,36 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
-
 generator client {
-  provider = "prisma-client"
-  output   = "../src/generated/prisma"
+  provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Video {
+  id                  Int       @id @default(autoincrement())
+  youtubeId           String    @unique
+  url                 String
+  title               String
+  description         String    @default("")
+  thumbnailUrl        String?
+  channelName         String    @default("")
+  channelId           String?
+  channelThumbnailUrl String?
+  publishedAt         DateTime?
+  duration            String?
+  viewCount           Int?
+  likeCount           Int?
+  commentCount        Int?
+  aiSummary           String?
+  aiTags              String?
+  youtubeTags         String?
+  keywords            String?
+  category            String?
+  language            String?
+  isEnriched          Boolean   @default(false)
+  enrichedAt          DateTime?
+  notes               String?
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
 }
