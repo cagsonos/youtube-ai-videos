@@ -10,7 +10,7 @@ export async function GET() {
     const buffer = exportVideosToExcel(videos);
     const date = new Date().toISOString().split("T")[0];
 
-    return new Response(buffer, {
+    return new Response(new Uint8Array(buffer), {
       headers: {
         "Content-Type":
           "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
