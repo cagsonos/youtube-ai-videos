@@ -77,7 +77,7 @@ export default function HomePage() {
     categoria: "",
     enriched: "",
     tags: "",
-    sort: "publishedAt",
+    sort: "createdAt",
     page: 1,
   });
 

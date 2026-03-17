@@ -9,7 +9,7 @@ export async function GET(request: NextRequest) {
   const categoria = searchParams.get("categoria") || "";
   const tags = searchParams.get("tags") || "";
   const enriched = searchParams.get("enriched");
-  const sort = searchParams.get("sort") || "publishedAt";
+  const sort = searchParams.get("sort") || "createdAt";
   const order = (searchParams.get("order") || "desc") as "asc" | "desc";
   const page = parseInt(searchParams.get("page") || "1", 10);
   const pageSize = 48;

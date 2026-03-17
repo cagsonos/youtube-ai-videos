@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  serverExternalPackages: ["xlsx"],
+  serverExternalPackages: ["xlsx", "@libsql/client", "@prisma/adapter-libsql"],
   images: {
     remotePatterns: [
       {

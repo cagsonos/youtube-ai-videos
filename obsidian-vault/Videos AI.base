@@ -1,38 +1,35 @@
 filters:
   and:
-    - 'file.inFolder("Videos")'
-    - 'file.ext == "md"'
-
+    - file.inFolder("Videos")
+    - file.ext == "md"
 formulas:
-  views_formatted: 'if(views, views.toLocaleString(), "")'
-  likes_formatted: 'if(likes, likes.toLocaleString(), "")'
-  days_ago: 'if(published, (today() - date(published)).days, "")'
-
+  views_formatted: if(views, views.toLocaleString(), "")
+  likes_formatted: if(likes, likes.toLocaleString(), "")
+  days_ago: if(published, (today() - date(published)).days, "")
 properties:
   title:
-    displayName: "Título"
+    displayName: Título
   channel:
-    displayName: "Canal"
+    displayName: Canal
   category:
-    displayName: "Categoría"
+    displayName: Categoría
   language:
-    displayName: "Idioma"
+    displayName: Idioma
   formula.views_formatted:
-    displayName: "Vistas"
+    displayName: Vistas
   formula.likes_formatted:
-    displayName: "Likes"
+    displayName: Likes
   published:
-    displayName: "Fecha"
+    displayName: Fecha
   duration:
-    displayName: "Duración"
+    displayName: Duración
   enriched:
-    displayName: "Enriquecido"
+    displayName: Enriquecido
   formula.days_ago:
-    displayName: "Hace (días)"
-
+    displayName: Hace (días)
 views:
   - type: table
-    name: "Todos los Videos"
+    name: Todos los Videos
     order:
       - title
       - channel
@@ -44,32 +41,29 @@ views:
     summaries:
       views: Sum
       formula.days_ago: Average
-
   - type: table
-    name: "Por Categoría"
+    name: Por Categoría
+    groupBy:
+      property: category
+      direction: ASC
     order:
       - title
       - channel
       - category
       - formula.views_formatted
       - published
-    groupBy:
-      property: category
-      direction: ASC
-
   - type: table
-    name: "Por Canal"
+    name: Por Canal
+    groupBy:
+      property: channel
+      direction: ASC
     order:
       - title
       - category
       - formula.views_formatted
       - published
-    groupBy:
-      property: channel
-      direction: ASC
-
   - type: table
-    name: "Más Vistos"
+    name: Más Vistos
     order:
       - title
       - channel
@@ -77,9 +71,8 @@ views:
       - formula.views_formatted
       - formula.likes_formatted
       - published
-
   - type: cards
-    name: "Galería"
+    name: Galería
     order:
       - title
       - channel

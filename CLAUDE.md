@@ -4,21 +4,23 @@ Aplicación web para organizar y explorar una colección personal de videos de Y
 
 ## Stack
 - Next.js 16 (App Router, async params) + TypeScript + Tailwind CSS 4 + shadcn/ui
-- SQLite + Prisma ORM (base de datos local, `dev.db`)
+- Prisma 6 ORM + Turso (libSQL) — misma base de datos cloud en dev y producción
 - YouTube Data API v3 (thumbnails, estadísticas, duración)
 - OpenRouter API (categorización + tags, modelo seleccionable desde la UI, default: `google/gemini-3-flash-preview`)
 - xlsx (exportación de Excel, requiere `serverExternalPackages` en next.config.mjs)
+- Deploy: Vercel + Turso (libSQL cloud database)
 
 ## Variables de entorno
 Copiar `.env.example` a `.env` y completar:
 - `YOUTUBE_API_KEY` — Google Cloud Console → APIs & Services → habilitar YouTube Data API v3
 - `OPENROUTER_API_KEY` — openrouter.ai → API Keys
-- `DATABASE_URL` — ya configurado para SQLite local (`file:./dev.db`)
+- `TURSO_DATABASE_URL` — URL de Turso: `libsql://...turso.io` (dev y producción)
+- `TURSO_AUTH_TOKEN` — token de autenticación Turso
 
 ## Comandos
 ```bash
 npm run dev          # Servidor de desarrollo en localhost:3000 (usa --webpack + 4GB heap)
-npm run build        # Build de producción (4GB heap)
+npm run build        # Build de producción (prisma generate + next build, 4GB heap)
 npm start            # Servidor de producción
 npm run lint         # ESLint
 npx prisma db push   # Sincronizar schema con BD
@@ -56,12 +58,11 @@ Las rutas streaming envían NDJSON con eventos: `start`, `progress`, `enriched`,
 ```
 src/
 ├── lib/
-│   ├── prisma.ts       # Prisma client singleton
+│   ├── prisma.ts       # Prisma client singleton con adapter libSQL (Turso)
 │   ├── youtube.ts      # YouTube Data API v3 (batch fetch, 50/request)
 │   ├── ai.ts           # OpenRouter: categorización + resumen (singleton client)
 │   ├── enrich.ts       # Lógica compartida de enriquecimiento (YouTube + IA + DB update)
 │   ├── buildVideoWhere.ts # Query builder: construye Prisma where conditions para filtros
-│   ├── claude.ts       # ⚠️ Anthropic SDK alternativo — NO IMPORTADO, dead code
 │   ├── models.ts       # 8 modelos disponibles (DEFAULT_MODEL: google/gemini-3-flash-preview)
 │   ├── excel.ts        # Import/export Excel (parseExcelFile solo para scripts)
 │   └── utils.ts        # cn() helper
@@ -74,16 +75,16 @@ src/
 
 Otros directorios:
 - `prisma/schema.prisma` — modelo Video (25 campos)
-- `scripts/` — `import.ts`, `export-obsidian.ts`
+- `scripts/` — `import.ts`, `export-obsidian.ts`, `categorize-pending.ts`
 - `obsidian-vault/` — vault generado (Videos/, Canales/, Categorías/, Tags/, Temas/)
 - `data/` — `Lista de Videos AI.xlsx` (fuente original)
-- `next.config.mjs` — remote images (YouTube), serverExternalPackages: ["xlsx"]
+- `next.config.mjs` — remote images (YouTube), serverExternalPackages: ["xlsx", "@libsql/client", "@prisma/adapter-libsql"]
 
 ## Convenciones
 - Interfaz y contenido generado en español
 - Dark mode por defecto
 - Path alias: `@/*` → `./src/*`
-- Campos JSON en SQLite como String: `aiTags` y `youtubeTags` → `JSON.stringify/parse`
+- Campos JSON en libSQL como String: `aiTags` y `youtubeTags` → `JSON.stringify/parse`
 - Campo `keywords` → string delimitado por `-` o `\n` (no JSON)
 - 16 categorías fijas en `src/lib/ai.ts` (`FIXED_CATEGORIES`) — la IA debe elegir de esta lista
 - Enriquecimiento parcial: si YouTube falla pero la IA funciona (o viceversa), se marca `isEnriched: true`
@@ -96,10 +97,8 @@ Otros directorios:
 - **Descripción se sobreescribe**: Al enriquecer, el resumen IA reemplaza `description` — la descripción original del Excel se pierde
 - **`aiSummary` no se usa**: El campo existe en el schema pero siempre es `null` (el resumen va a `description`)
 - **`channelThumbnailUrl` nunca se puebla**: Requeriría un call extra a `channels.list` de YouTube
-- **Búsqueda limitada**: Prisma `.contains()` = LIKE en SQLite — sin stemming ni fuzzy matching
-- **`claude.ts` es dead code**: Duplica `ai.ts` con Anthropic SDK directo, pero ningún archivo lo importa
+- **Búsqueda limitada**: Prisma `.contains()` = LIKE en libSQL — sin stemming ni fuzzy matching
 - **`parseExcelFile` en `excel.ts`**: Usa `path` y `fs` — solo se llama desde `scripts/import.ts`, no desde la app web
-- **Errores pre-existentes en tsc**: `.next/` cache tiene tipos stale de una ruta `/api/import` eliminada; `export/route.ts` tiene un tipo Buffer incompatible
 
 ## Rate limits
 - YouTube Data API: 10,000 units/día (videos.list = 1 unit por batch de 50 IDs)

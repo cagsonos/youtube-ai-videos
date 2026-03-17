@@ -1,525 +1,66 @@
 {
-  "nodes": [
-    {
-      "id": "22c501a4f82b47b4",
-      "type": "text",
-      "x": 0,
-      "y": 0,
-      "width": 300,
-      "height": 100,
-      "color": "5",
-      "text": "# Videos AI\n\n289 videos sobre Inteligencia Artificial"
-    },
-    {
-      "id": "ca99c7f2b07c664d",
-      "type": "group",
-      "x": -180,
-      "y": -860,
-      "width": 360,
-      "height": 140,
-      "label": "n8n Workflows y Automatización",
-      "color": "1"
-    },
-    {
-      "id": "5ada3b9f77fb50f7",
-      "type": "text",
-      "x": -160,
-      "y": -840,
-      "width": 320,
-      "height": 100,
-      "text": "**83 videos**\n\n- Master n8n in 2 Hours: Complete Beginner’s Guide f\n- STOP Using Basic n8n Nodes! These 10 Will Change E\n- 25 n8n Hacks I Wish I Knew Sooner\n- n8n 2.0 is Here (What You Need to Know)\n- I Scraped Every N8N Template For You (FREE Databas"
-    },
-    {
-      "id": "9e785a7822c3b52a",
-      "type": "group",
-      "x": 145,
-      "y": -791,
-      "width": 360,
-      "height": 140,
-      "label": "RAG y Bases de Conocimiento",
-      "color": "2"
-    },
-    {
-      "id": "37d3ac370e045d70",
-      "type": "text",
-      "x": 165,
-      "y": -771,
-      "width": 320,
-      "height": 100,
-      "text": "**56 videos**\n\n- Turn ANY File into LLM Knowledge in SECONDS\n- How to Set up Supabase and Postgres for RAG Agent \n- Make your AI Agents 10x Smarter with GraphRAG (n8n\n- n8n Just Leveled Up RAG Agents (Reranking & Metada\n- Gemini's New File Search Just Leveled Up RAG Agent"
-    },
-    {
-      "id": "0dd5e38c3bce2b00",
-      "type": "group",
-      "x": 415,
-      "y": -595,
-      "width": 360,
-      "height": 140,
-      "label": "Agentes de Voz",
-      "color": "3"
-    },
-    {
-      "id": "359e60eb116e23ca",
-      "type": "text",
-      "x": 435,
-      "y": -575,
-      "width": 320,
-      "height": 100,
-      "text": "**51 videos**\n\n- This AI Phone Agent Can Handle EVERYTHING For You \n- Turn Your AI Agent Into a Voice Assistant in Minut\n- I Built an AI Voice Receptionist with Vapi and n8n\n- Build Your First Voice AI Agent in 20 Minutes with\n- The EASIEST way to build NO-CODE Elevenlabs Voice "
-    },
-    {
-      "id": "ce57f287daba5b00",
-      "type": "group",
-      "x": 581,
-      "y": -307,
-      "width": 360,
-      "height": 140,
-      "label": "Claude Code y Desarrollo con IA",
-      "color": "4"
-    },
-    {
-      "id": "83a40ec3cffb4bfe",
-      "type": "text",
-      "x": 601,
-      "y": -287,
-      "width": 320,
-      "height": 100,
-      "text": "**23 videos**\n\n- Every Claude Code Concept Explained for Normal Peo\n- Master 95% of Claude Code in 36 Mins (as a beginne\n- Agentic Workflows Just Changed AI Automation Forev\n- Claude Code is Better at n8n than I am (Beginner's\n- Claude Code 2.0 Is Finally Here"
-    },
-    {
-      "id": "d023a72c1b74de0c",
-      "type": "group",
-      "x": 616,
-      "y": 24,
-      "width": 360,
-      "height": 140,
-      "label": "Agentes IA y Sistemas Multi-Agente",
-      "color": "5"
-    },
-    {
-      "id": "f85a4c500653f5ea",
-      "type": "text",
-      "x": 636,
-      "y": 44,
-      "width": 320,
-      "height": 100,
-      "text": "**18 videos**\n\n- Multi-Agent Systems Have NEVER Been EASIER to Buil\n- I Built an AI Agent that Builds Entire Teams of AI\n- Anthropic Just Changed How Agents Call Tools. I St\n- I Built the Ultimate Browser Agent with No Code (n\n- Build ANYTHING with Claude Sonnet 4.5 and n8n AI A"
-    },
-    {
-      "id": "156edbb14315bcb6",
-      "type": "group",
-      "x": 513,
-      "y": 340,
-      "width": 360,
-      "height": 140,
-      "label": "WhatsApp y Chatbots",
-      "color": "6"
-    },
-    {
-      "id": "9616666a772f7c71",
-      "type": "text",
-      "x": 533,
-      "y": 360,
-      "width": 320,
-      "height": 100,
-      "text": "**16 videos**\n\n- How to Build a WhatsApp Agent with n8n (credential\n- Hice un Chatbot con IA para una Cafetería en Menos\n- The Most ADVANCED SMS AI Agent You Can Build (No-C\n- 1 Prompt → WhatsApp AI Agent in Lovable (Copy & Se\n- Conecta WhatsApp a n8n con ManyChat (La forma MÁS "
-    },
-    {
-      "id": "cdcbf93517ee9614",
-      "type": "group",
-      "x": 290,
-      "y": 587,
-      "width": 360,
-      "height": 140,
-      "label": "MCP (Model Context Protocol)",
-      "color": "1"
-    },
-    {
-      "id": "3f689366265a1b33",
-      "type": "text",
-      "x": 310,
-      "y": 607,
-      "width": 320,
-      "height": 100,
-      "text": "**15 videos**\n\n- Run & View Workflows from AI Tools\n- n8n's Native MCP Integration (without the hype)\n- Knowledge Graphs in n8n are FINALLY Here!\n- Docker Just Made Using MCP Servers 100x Easier (On\n- UNLOCK the Power of Graph Agents with Neo4J and n8"
-    },
-    {
-      "id": "2d194bcc8ff71d59",
-      "type": "group",
-      "x": -14,
-      "y": 723,
-      "width": 360,
-      "height": 140,
-      "label": "Web Scraping y Extracción de Datos",
-      "color": "2"
-    },
-    {
-      "id": "394c82162b956eb2",
-      "type": "text",
-      "x": 6,
-      "y": 743,
-      "width": 320,
-      "height": 100,
-      "text": "**8 videos**\n\n- The Simplest Way to Automate Scraping Anything wit\n- Turn Any Website Into LLM Ready Data INSTANTLY\n- Turn AI Web Scraping into Profit (My Firecrawl & n\n- Scrape ANY Website Automatically with n8n + Apify \n- Introducing Website Content Crawler - Get Clean We"
-    },
-    {
-      "id": "bd4d0d8c8a35563f",
-      "type": "group",
-      "x": -346,
-      "y": 723,
-      "width": 360,
-      "height": 140,
-      "label": "SaaS y Aplicaciones No-Code",
-      "color": "3"
-    },
-    {
-      "id": "c7f3326a3e7db97a",
-      "type": "text",
-      "x": -326,
-      "y": 743,
-      "width": 320,
-      "height": 100,
-      "text": "**5 videos**\n\n- Build an n8n Workflow Monitoring Dashboard with Re\n- Package n8n Workflows Into a Simple SaaS (Zero Cod\n- Brutal: Crea esta Aplicación IA en Minutos sin pro\n- How To Build Mobile Apps Using AI (Replit's New Ap\n- Chatbot Dashboard for Secure Conversational WebApp"
-    },
-    {
-      "id": "56c48c558ce77390",
-      "type": "group",
-      "x": -650,
-      "y": 587,
-      "width": 360,
-      "height": 140,
-      "label": "Infraestructura y Despliegue",
-      "color": "4"
-    },
-    {
-      "id": "e7afe4b13eb8be0e",
-      "type": "text",
-      "x": -630,
-      "y": 607,
-      "width": 320,
-      "height": 100,
-      "text": "**5 videos**\n\n- Set Up Clawdbot on a VPS in Minutes (no mac mini)\n- INSTALA n8n + WhatsApp en tu SERVIDOR en Menos de \n- 🔥Guía DEFINITIVA y ACTUALIZADA de Instalar n8n en\n- How to Update N8N on Hostinger VPS (2025)\n- Cómo Instalar EasyPanel y n8n en Hostinger"
-    },
-    {
-      "id": "4471d9ac29b1b13f",
-      "type": "group",
-      "x": -873,
-      "y": 340,
-      "width": 360,
-      "height": 140,
-      "label": "Bases de Datos y Almacenamiento",
-      "color": "5"
-    },
-    {
-      "id": "84764d7ad1e4dafa",
-      "type": "text",
-      "x": -853,
-      "y": 360,
-      "width": 320,
-      "height": 100,
-      "text": "**4 videos**\n\n- 10X Your Supabase DB in Minutes: No-Code N8N Autom\n- Relational Databases Made Super Simple for Beginne\n- Supabase Database Webhooks\n- Redis en 10 minutos - ¿Qué es Redis? - Introducció"
-    },
-    {
-      "id": "0c25a3b4a1125320",
-      "type": "group",
-      "x": -976,
-      "y": 24,
-      "width": 360,
-      "height": 140,
-      "label": "Generación de Contenido con IA",
-      "color": "6"
-    },
-    {
-      "id": "5a8a2fd121d597eb",
-      "type": "text",
-      "x": -956,
-      "y": 44,
-      "width": 320,
-      "height": 100,
-      "text": "**4 videos**\n\n- How to Automate Your AI Clone with No Code (HeyGen\n- Sora 2 + n8n = NEW AI Video King (full tutorial + \n- Crea Videos Hiperrealistas en Minutos: Automatizac\n- Como Construí un Agente IA que Crea Videos POV (Si"
-    },
-    {
-      "id": "1dd2d463f2cde81f",
-      "type": "group",
-      "x": -941,
-      "y": -307,
-      "width": 360,
-      "height": 140,
-      "label": "LLMs y Modelos de IA",
-      "color": "1"
-    },
-    {
-      "id": "6ed3ab739411559c",
-      "type": "text",
-      "x": -921,
-      "y": -287,
-      "width": 320,
-      "height": 100,
-      "text": "**4 videos**\n\n- ¿Es mejor la AI china?\n- Claude Sonnet 4.6 Is Here (and Better Than Opus?)\n- La plataforma SECRETA para usar TODAS las IAs de p\n- Did Claude's 1M Context Window Defeat Context Rot?"
-    },
-    {
-      "id": "3fb36d3f3dcc2155",
-      "type": "group",
-      "x": -775,
-      "y": -595,
-      "width": 360,
-      "height": 140,
-      "label": "Negocio y Monetización con IA",
-      "color": "2"
-    },
-    {
-      "id": "8595874df7669f10",
-      "type": "text",
-      "x": -755,
-      "y": -575,
-      "width": 320,
-      "height": 100,
-      "text": "**2 videos**\n\n- The NEW way to build $100,000 AI Systems (Gemini 3\n- Why I Stopped Building AI Workflows (And Made 10x "
-    },
-    {
-      "id": "ccd37669de8618c8",
-      "type": "group",
-      "x": -505,
-      "y": -791,
-      "width": 360,
-      "height": 140,
-      "label": "Herramientas y Recursos IA",
-      "color": "3"
-    },
-    {
-      "id": "c46942b6539799f7",
-      "type": "text",
-      "x": -485,
-      "y": -771,
-      "width": 320,
-      "height": 100,
-      "text": "**1 videos**\n\n- Perplexity in 34 Minutes"
-    },
-    {
-      "id": "5411a27516fdca7e",
-      "type": "text",
-      "x": 280,
-      "y": -40,
-      "width": 240,
-      "height": 80,
-      "color": "4",
-      "text": "## n8n y Automatización"
-    },
-    {
-      "id": "0e679ae72b2dcae2",
-      "type": "text",
-      "x": 129,
-      "y": 273,
-      "width": 240,
-      "height": 80,
-      "color": "4",
-      "text": "## RAG y Bases de Conocimiento"
-    },
-    {
-      "id": "dc3d26efa9bf1018",
-      "type": "text",
-      "x": -209,
-      "y": 350,
-      "width": 240,
-      "height": 80,
-      "color": "4",
-      "text": "## Agentes IA"
-    },
-    {
-      "id": "e7a17a4f977e07c4",
-      "type": "text",
-      "x": -480,
-      "y": 134,
-      "width": 240,
-      "height": 80,
-      "color": "4",
-      "text": "## Voice AI y Chatbots"
-    },
-    {
-      "id": "65d37acedfe26dbe",
-      "type": "text",
-      "x": -480,
-      "y": -214,
-      "width": 240,
-      "height": 80,
-      "color": "4",
-      "text": "## Datos y Web Scraping"
-    },
-    {
-      "id": "51978509eee56d83",
-      "type": "text",
-      "x": -209,
-      "y": -430,
-      "width": 240,
-      "height": 80,
-      "color": "4",
-      "text": "## LLMs y Modelos"
-    },
-    {
-      "id": "965c8b6906c08040",
-      "type": "text",
-      "x": 129,
-      "y": -353,
-      "width": 240,
-      "height": 80,
-      "color": "4",
-      "text": "## Infraestructura y Deploy"
-    }
-  ],
-  "edges": [
-    {
-      "id": "3f1fe9838ce05e37",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "ca99c7f2b07c664d",
-      "toEnd": "arrow",
-      "label": "83"
-    },
-    {
-      "id": "24ec9c57761cd486",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "9e785a7822c3b52a",
-      "toEnd": "arrow",
-      "label": "56"
-    },
-    {
-      "id": "88e9990773e601fe",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "0dd5e38c3bce2b00",
-      "toEnd": "arrow",
-      "label": "51"
-    },
-    {
-      "id": "a5f025316b0a3760",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "ce57f287daba5b00",
-      "toEnd": "arrow",
-      "label": "23"
-    },
-    {
-      "id": "5f3f42f0f7aba4f8",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "d023a72c1b74de0c",
-      "toEnd": "arrow",
-      "label": "18"
-    },
-    {
-      "id": "19f13e2ba2b417bf",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "156edbb14315bcb6",
-      "toEnd": "arrow",
-      "label": "16"
-    },
-    {
-      "id": "aa6a74110eac56ae",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "cdcbf93517ee9614",
-      "toEnd": "arrow",
-      "label": "15"
-    },
-    {
-      "id": "6d52b0dcea50db13",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "2d194bcc8ff71d59",
-      "toEnd": "arrow",
-      "label": "8"
-    },
-    {
-      "id": "afe90ca9a337831b",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "bd4d0d8c8a35563f",
-      "toEnd": "arrow",
-      "label": "5"
-    },
-    {
-      "id": "2cfe5176e61ed142",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "56c48c558ce77390",
-      "toEnd": "arrow",
-      "label": "5"
-    },
-    {
-      "id": "1c8ca6fa56dc40b8",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "4471d9ac29b1b13f",
-      "toEnd": "arrow",
-      "label": "4"
-    },
-    {
-      "id": "3d12b2d569864e02",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "0c25a3b4a1125320",
-      "toEnd": "arrow",
-      "label": "4"
-    },
-    {
-      "id": "a0d393923c2d0d63",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "1dd2d463f2cde81f",
-      "toEnd": "arrow",
-      "label": "4"
-    },
-    {
-      "id": "342313de8e0baf22",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "3fb36d3f3dcc2155",
-      "toEnd": "arrow",
-      "label": "2"
-    },
-    {
-      "id": "b293ab51b9558525",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "ccd37669de8618c8",
-      "toEnd": "arrow",
-      "label": "1"
-    },
-    {
-      "id": "115dbb45e65be3e9",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "5411a27516fdca7e",
-      "toEnd": "arrow",
-      "color": "4"
-    },
-    {
-      "id": "ed4cf7c511b0c575",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "0e679ae72b2dcae2",
-      "toEnd": "arrow",
-      "color": "4"
-    },
-    {
-      "id": "4b51e9870227f221",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "dc3d26efa9bf1018",
-      "toEnd": "arrow",
-      "color": "4"
-    },
-    {
-      "id": "5cfba0f71c028cad",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "e7a17a4f977e07c4",
-      "toEnd": "arrow",
-      "color": "4"
-    },
-    {
-      "id": "b29694256e45be5a",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "65d37acedfe26dbe",
-      "toEnd": "arrow",
-      "color": "4"
-    },
-    {
-      "id": "d92fc67e1193ed4f",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "51978509eee56d83",
-      "toEnd": "arrow",
-      "color": "4"
-    },
-    {
-      "id": "53f413d3f7c08ef6",
-      "fromNode": "22c501a4f82b47b4",
-      "toNode": "965c8b6906c08040",
-      "toEnd": "arrow",
-      "color": "4"
-    }
-  ]
+	"nodes":[
+		{"id":"22c501a4f82b47b4","type":"text","x":0,"y":0,"width":300,"height":100,"color":"5","text":"# Videos AI\n\n289 videos sobre Inteligencia Artificial"},
+		{"id":"ca99c7f2b07c664d","type":"group","x":-180,"y":-860,"width":360,"height":140,"label":"n8n Workflows y Automatización","color":"1"},
+		{"id":"5ada3b9f77fb50f7","type":"text","x":-160,"y":-840,"width":320,"height":100,"text":"**83 videos**\n\n- Master n8n in 2 Hours: Complete Beginner’s Guide f\n- STOP Using Basic n8n Nodes! These 10 Will Change E\n- 25 n8n Hacks I Wish I Knew Sooner\n- n8n 2.0 is Here (What You Need to Know)\n- I Scraped Every N8N Template For You (FREE Databas"},
+		{"id":"9e785a7822c3b52a","type":"group","x":145,"y":-791,"width":360,"height":140,"label":"RAG y Bases de Conocimiento","color":"2"},
+		{"id":"37d3ac370e045d70","type":"text","x":165,"y":-771,"width":320,"height":100,"text":"**56 videos**\n\n- Turn ANY File into LLM Knowledge in SECONDS\n- How to Set up Supabase and Postgres for RAG Agent \n- Make your AI Agents 10x Smarter with GraphRAG (n8n\n- n8n Just Leveled Up RAG Agents (Reranking & Metada\n- Gemini's New File Search Just Leveled Up RAG Agent"},
+		{"id":"0dd5e38c3bce2b00","type":"group","x":415,"y":-595,"width":360,"height":140,"label":"Agentes de Voz","color":"3"},
+		{"id":"359e60eb116e23ca","type":"text","x":435,"y":-575,"width":320,"height":100,"text":"**51 videos**\n\n- This AI Phone Agent Can Handle EVERYTHING For You \n- Turn Your AI Agent Into a Voice Assistant in Minut\n- I Built an AI Voice Receptionist with Vapi and n8n\n- Build Your First Voice AI Agent in 20 Minutes with\n- The EASIEST way to build NO-CODE Elevenlabs Voice "},
+		{"id":"ce57f287daba5b00","type":"group","x":581,"y":-307,"width":360,"height":140,"label":"Claude Code y Desarrollo con IA","color":"4"},
+		{"id":"83a40ec3cffb4bfe","type":"text","x":601,"y":-287,"width":320,"height":100,"text":"**23 videos**\n\n- Every Claude Code Concept Explained for Normal Peo\n- Master 95% of Claude Code in 36 Mins (as a beginne\n- Agentic Workflows Just Changed AI Automation Forev\n- Claude Code is Better at n8n than I am (Beginner's\n- Claude Code 2.0 Is Finally Here"},
+		{"id":"d023a72c1b74de0c","type":"group","x":616,"y":24,"width":360,"height":140,"label":"Agentes IA y Sistemas Multi-Agente","color":"5"},
+		{"id":"f85a4c500653f5ea","type":"text","x":636,"y":44,"width":320,"height":100,"text":"**18 videos**\n\n- Multi-Agent Systems Have NEVER Been EASIER to Buil\n- I Built an AI Agent that Builds Entire Teams of AI\n- Anthropic Just Changed How Agents Call Tools. I St\n- I Built the Ultimate Browser Agent with No Code (n\n- Build ANYTHING with Claude Sonnet 4.5 and n8n AI A"},
+		{"id":"156edbb14315bcb6","type":"group","x":513,"y":340,"width":360,"height":140,"label":"WhatsApp y Chatbots","color":"6"},
+		{"id":"9616666a772f7c71","type":"text","x":533,"y":360,"width":320,"height":100,"text":"**16 videos**\n\n- How to Build a WhatsApp Agent with n8n (credential\n- Hice un Chatbot con IA para una Cafetería en Menos\n- The Most ADVANCED SMS AI Agent You Can Build (No-C\n- 1 Prompt → WhatsApp AI Agent in Lovable (Copy & Se\n- Conecta WhatsApp a n8n con ManyChat (La forma MÁS "},
+		{"id":"cdcbf93517ee9614","type":"group","x":290,"y":587,"width":360,"height":140,"label":"MCP (Model Context Protocol)","color":"1"},
+		{"id":"3f689366265a1b33","type":"text","x":310,"y":607,"width":320,"height":100,"text":"**15 videos**\n\n- Run & View Workflows from AI Tools\n- n8n's Native MCP Integration (without the hype)\n- Knowledge Graphs in n8n are FINALLY Here!\n- Docker Just Made Using MCP Servers 100x Easier (On\n- UNLOCK the Power of Graph Agents with Neo4J and n8"},
+		{"id":"2d194bcc8ff71d59","type":"group","x":-14,"y":723,"width":360,"height":140,"label":"Web Scraping y Extracción de Datos","color":"2"},
+		{"id":"394c82162b956eb2","type":"text","x":6,"y":743,"width":320,"height":100,"text":"**8 videos**\n\n- The Simplest Way to Automate Scraping Anything wit\n- Turn Any Website Into LLM Ready Data INSTANTLY\n- Turn AI Web Scraping into Profit (My Firecrawl & n\n- Scrape ANY Website Automatically with n8n + Apify \n- Introducing Website Content Crawler - Get Clean We"},
+		{"id":"bd4d0d8c8a35563f","type":"group","x":-346,"y":723,"width":360,"height":140,"label":"SaaS y Aplicaciones No-Code","color":"3"},
+		{"id":"c7f3326a3e7db97a","type":"text","x":-326,"y":743,"width":320,"height":100,"text":"**5 videos**\n\n- Build an n8n Workflow Monitoring Dashboard with Re\n- Package n8n Workflows Into a Simple SaaS (Zero Cod\n- Brutal: Crea esta Aplicación IA en Minutos sin pro\n- How To Build Mobile Apps Using AI (Replit's New Ap\n- Chatbot Dashboard for Secure Conversational WebApp"},
+		{"id":"56c48c558ce77390","type":"group","x":-650,"y":587,"width":360,"height":140,"label":"Infraestructura y Despliegue","color":"4"},
+		{"id":"e7afe4b13eb8be0e","type":"text","x":-630,"y":607,"width":320,"height":100,"text":"**5 videos**\n\n- Set Up Clawdbot on a VPS in Minutes (no mac mini)\n- INSTALA n8n + WhatsApp en tu SERVIDOR en Menos de \n- 🔥Guía DEFINITIVA y ACTUALIZADA de Instalar n8n en\n- How to Update N8N on Hostinger VPS (2025)\n- Cómo Instalar EasyPanel y n8n en Hostinger"},
+		{"id":"4471d9ac29b1b13f","type":"group","x":-873,"y":340,"width":360,"height":140,"label":"Bases de Datos y Almacenamiento","color":"5"},
+		{"id":"84764d7ad1e4dafa","type":"text","x":-853,"y":360,"width":320,"height":100,"text":"**4 videos**\n\n- 10X Your Supabase DB in Minutes: No-Code N8N Autom\n- Relational Databases Made Super Simple for Beginne\n- Supabase Database Webhooks\n- Redis en 10 minutos - ¿Qué es Redis? - Introducció"},
+		{"id":"0c25a3b4a1125320","type":"group","x":-976,"y":24,"width":360,"height":140,"label":"Generación de Contenido con IA","color":"6"},
+		{"id":"5a8a2fd121d597eb","type":"text","x":-956,"y":44,"width":320,"height":100,"text":"**4 videos**\n\n- How to Automate Your AI Clone with No Code (HeyGen\n- Sora 2 + n8n = NEW AI Video King (full tutorial + \n- Crea Videos Hiperrealistas en Minutos: Automatizac\n- Como Construí un Agente IA que Crea Videos POV (Si"},
+		{"id":"1dd2d463f2cde81f","type":"group","x":-941,"y":-307,"width":360,"height":140,"label":"LLMs y Modelos de IA","color":"1"},
+		{"id":"6ed3ab739411559c","type":"text","x":-921,"y":-287,"width":320,"height":100,"text":"**4 videos**\n\n- ¿Es mejor la AI china?\n- Claude Sonnet 4.6 Is Here (and Better Than Opus?)\n- La plataforma SECRETA para usar TODAS las IAs de p\n- Did Claude's 1M Context Window Defeat Context Rot?"},
+		{"id":"3fb36d3f3dcc2155","type":"group","x":-775,"y":-595,"width":360,"height":140,"label":"Negocio y Monetización con IA","color":"2"},
+		{"id":"8595874df7669f10","type":"text","x":-755,"y":-575,"width":320,"height":100,"text":"**2 videos**\n\n- The NEW way to build $100,000 AI Systems (Gemini 3\n- Why I Stopped Building AI Workflows (And Made 10x "},
+		{"id":"ccd37669de8618c8","type":"group","x":-505,"y":-791,"width":360,"height":140,"label":"Herramientas y Recursos IA","color":"3"},
+		{"id":"c46942b6539799f7","type":"text","x":-485,"y":-771,"width":320,"height":100,"text":"**1 videos**\n\n- Perplexity in 34 Minutes"},
+		{"id":"5411a27516fdca7e","type":"text","x":280,"y":-40,"width":240,"height":80,"color":"4","text":"## n8n y Automatización"},
+		{"id":"0e679ae72b2dcae2","type":"text","x":129,"y":273,"width":240,"height":80,"color":"4","text":"## RAG y Bases de Conocimiento"},
+		{"id":"dc3d26efa9bf1018","type":"text","x":-209,"y":350,"width":240,"height":80,"color":"4","text":"## Agentes IA"},
+		{"id":"e7a17a4f977e07c4","type":"text","x":-480,"y":134,"width":240,"height":80,"color":"4","text":"## Voice AI y Chatbots"},
+		{"id":"65d37acedfe26dbe","type":"text","x":-480,"y":-214,"width":240,"height":80,"color":"4","text":"## Datos y Web Scraping"},
+		{"id":"51978509eee56d83","type":"text","x":-209,"y":-430,"width":240,"height":80,"color":"4","text":"## LLMs y Modelos"},
+		{"id":"965c8b6906c08040","type":"text","x":129,"y":-353,"width":240,"height":80,"color":"4","text":"## Infraestructura y Deploy"}
+	],
+	"edges":[
+		{"id":"3f1fe9838ce05e37","fromNode":"22c501a4f82b47b4","toNode":"ca99c7f2b07c664d","toEnd":"arrow","label":"83","fromSide":"top","toSide":"bottom"},
+		{"id":"24ec9c57761cd486","fromNode":"22c501a4f82b47b4","toNode":"9e785a7822c3b52a","toEnd":"arrow","label":"56","fromSide":"top","toSide":"bottom"},
+		{"id":"88e9990773e601fe","fromNode":"22c501a4f82b47b4","toNode":"0dd5e38c3bce2b00","toEnd":"arrow","label":"51","fromSide":"top","toSide":"bottom"},
+		{"id":"a5f025316b0a3760","fromNode":"22c501a4f82b47b4","toNode":"ce57f287daba5b00","toEnd":"arrow","label":"23","fromSide":"top","toSide":"bottom"},
+		{"id":"5f3f42f0f7aba4f8","fromNode":"22c501a4f82b47b4","toNode":"d023a72c1b74de0c","toEnd":"arrow","label":"18","fromSide":"right","toSide":"left"},
+		{"id":"19f13e2ba2b417bf","fromNode":"22c501a4f82b47b4","toNode":"156edbb14315bcb6","toEnd":"arrow","label":"16","fromSide":"bottom","toSide":"top"},
+		{"id":"aa6a74110eac56ae","fromNode":"22c501a4f82b47b4","toNode":"cdcbf93517ee9614","toEnd":"arrow","label":"15","fromSide":"bottom","toSide":"top"},
+		{"id":"6d52b0dcea50db13","fromNode":"22c501a4f82b47b4","toNode":"2d194bcc8ff71d59","toEnd":"arrow","label":"8","fromSide":"bottom","toSide":"top"},
+		{"id":"afe90ca9a337831b","fromNode":"22c501a4f82b47b4","toNode":"bd4d0d8c8a35563f","toEnd":"arrow","label":"5","fromSide":"bottom","toSide":"top"},
+		{"id":"2cfe5176e61ed142","fromNode":"22c501a4f82b47b4","toNode":"56c48c558ce77390","toEnd":"arrow","label":"5","fromSide":"bottom","toSide":"top"},
+		{"id":"1c8ca6fa56dc40b8","fromNode":"22c501a4f82b47b4","toNode":"4471d9ac29b1b13f","toEnd":"arrow","label":"4","fromSide":"bottom","toSide":"top"},
+		{"id":"3d12b2d569864e02","fromNode":"22c501a4f82b47b4","toNode":"0c25a3b4a1125320","toEnd":"arrow","label":"4","fromSide":"left","toSide":"right"},
+		{"id":"a0d393923c2d0d63","fromNode":"22c501a4f82b47b4","toNode":"1dd2d463f2cde81f","toEnd":"arrow","label":"4","fromSide":"left","toSide":"right"},
+		{"id":"342313de8e0baf22","fromNode":"22c501a4f82b47b4","toNode":"3fb36d3f3dcc2155","toEnd":"arrow","label":"2","fromSide":"top","toSide":"bottom"},
+		{"id":"b293ab51b9558525","fromNode":"22c501a4f82b47b4","toNode":"ccd37669de8618c8","toEnd":"arrow","label":"1","fromSide":"top","toSide":"bottom"},
+		{"id":"115dbb45e65be3e9","fromNode":"22c501a4f82b47b4","toNode":"5411a27516fdca7e","toEnd":"arrow","color":"4","fromSide":"right","toSide":"left"},
+		{"id":"ed4cf7c511b0c575","fromNode":"22c501a4f82b47b4","toNode":"0e679ae72b2dcae2","toEnd":"arrow","color":"4","fromSide":"bottom","toSide":"top"},
+		{"id":"4b51e9870227f221","fromNode":"22c501a4f82b47b4","toNode":"dc3d26efa9bf1018","toEnd":"arrow","color":"4","fromSide":"bottom","toSide":"top"},
+		{"id":"5cfba0f71c028cad","fromNode":"22c501a4f82b47b4","toNode":"e7a17a4f977e07c4","toEnd":"arrow","color":"4","fromSide":"left","toSide":"right"},
+		{"id":"b29694256e45be5a","fromNode":"22c501a4f82b47b4","toNode":"65d37acedfe26dbe","toEnd":"arrow","color":"4","fromSide":"top","toSide":"bottom"},
+		{"id":"d92fc67e1193ed4f","fromNode":"22c501a4f82b47b4","toNode":"51978509eee56d83","toEnd":"arrow","color":"4","fromSide":"top","toSide":"bottom"},
+		{"id":"53f413d3f7c08ef6","fromNode":"22c501a4f82b47b4","toNode":"965c8b6906c08040","toEnd":"arrow","color":"4","fromSide":"top","toSide":"bottom"}
+	]
 }

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b7133a891b973d4f",
+        "id": "557931c302e745ea",
         "type": "tabs",
         "children": [
           {
-            "id": "083be0d590f86876",
+            "id": "e196dcfd85f93024",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Alejandro Pardo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Alejandro Pardo"
             }
           }
         ]
@@ -179,8 +183,12 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "083be0d590f86876",
+  "active": "25a075e8885aaaee",
   "lastOpenFiles": [
+    "Videos AI.base",
+    "Dashboard.canvas",
+    "Sin título.base",
+    "Sin nombre",
     "Videos/I'm launching a new RAG platform to query your documents via API with excellent quality.md",
     "Videos/The $0.02 Workflow That Automates Data Extraction With n8n & AI.md",
     "Temas/n8n y Automatización.md",
@@ -189,11 +197,8 @@
     "Tags/Redis.md",
     "Videos/Chatbot de voz con Retell + N8N- cómo recoger datos reales de clientes.md",
     "Tags/automatización.md",
-    "Videos AI.base",
-    "Dashboard.canvas",
     "Canales/Erik Taveras.md",
     "Zubair Trabzada.md",
-    "Sin título.base",
     "2026-03-13.md",
     "Sin título.canvas",
     "Videos/STOP Using Basic n8n Nodes! These 10 Will Change Everything.md"

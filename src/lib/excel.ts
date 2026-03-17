@@ -28,6 +28,12 @@ export function extractVideoId(url: string): string | null {
   );
   if (longMatch) return longMatch[1];
 
+  // youtube.com/shorts/VIDEO_ID
+  const shortsMatch = trimmed.match(
+    /youtube\.com\/shorts\/([a-zA-Z0-9_-]{11})/
+  );
+  if (shortsMatch) return shortsMatch[1];
+
   return null;
 }
 
